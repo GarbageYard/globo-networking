@@ -13,3 +13,6 @@
 
 # .pem files
 *.pem
+
+# Adding this during m5 section so we could test things locally without worrying about 'terraform init' failing
+backend_local.tf
