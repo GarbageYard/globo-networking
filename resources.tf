@@ -60,7 +60,6 @@ resource "aws_security_group" "ingress" {
   ingress                = []
   name                   = "no-ingress-sg"
   name_prefix            = null
-  region                 = "us-east-2"
   revoke_rules_on_delete = null
   tags                   = local.common_tags
   tags_all               = {}
