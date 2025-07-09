@@ -20,6 +20,7 @@ locals {
     Environment = var.environment
     BillingCode = var.billing_code
     Workspace   = terraform.workspace
+    Purpose     = "learning"
   }
 }
 
